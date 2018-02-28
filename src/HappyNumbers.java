@@ -1,10 +1,13 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * Main class for Assignment 2
+ */
 public class HappyNumbers {
     public static void main(String args[])
     {
-        ArrayList<Integer> numbers = new ArrayList<Integer>();
+        ArrayList<Integer> numbers = new ArrayList<>();
         int chosenNumber = readNumber();
         numbers.add(chosenNumber);
         System.out.println("input: " + numbers.get(0));
@@ -16,7 +19,7 @@ public class HappyNumbers {
      * Method to get the users number as input
      * @return user's number
      */
-    public static int readNumber()
+    private static int readNumber()
     {
         Scanner reader = new Scanner(System.in);
         System.out.println("Please enter a positive number");
