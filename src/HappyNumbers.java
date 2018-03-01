@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * Main class for Assignment 2
+ * Main class for Lab Assignment 2
  */
 public class HappyNumbers {
     public static void main(String args[])
